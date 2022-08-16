@@ -23,7 +23,7 @@ public class Main {
         int orta= sayi / toplam;
         if(sayi !=0){
 
-            System.out.println(k + "'ya kadadr olan 3'e ve 4'e bölünen sayıların ortalaması: "+ orta+ "dir." +sayi + " " + toplam);
+            System.out.println(k + "'ya kadadr olan 3'e ve 4'e bölünen sayıların ortalaması: "+ orta+ "dir.");
         }
         else{
             System.out.println(sayi + "'ye kadar 3'e 4e bölünen sayı yoktur'" );
