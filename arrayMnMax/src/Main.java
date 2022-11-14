@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner inp= new Scanner(System.in);
         int [] list={15,12,788,1,-1,-788,2,0};
-        System.out.println("Liste: " + list);
+        System.out.println("Liste: " + Arrays.toString(list));
         System.out.print("Girilen sayı: ");
         int sayi=inp.nextInt();
         Arrays.sort(list);
