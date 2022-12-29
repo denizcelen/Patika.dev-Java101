@@ -16,7 +16,6 @@ public class Main {
 
         System.out.println("------------ Sayı Tahmin Oyunu ------------");
         int number = rnd.nextInt(100);
-        System.out.println(number);
         System.out.println("5 hakkınız var");
         while (right < 5) {
             System.out.print("Tahmininizi giriniz" + "(" + (right + 1) + ". hakkınız):");
@@ -47,7 +46,7 @@ public class Main {
         }
 
         if (!isRight) {
-            System.out.println("Haklarınız doldu! Maalesef Oyunu kaybettiniz :(");
+            System.out.println("Haklarınız doldu! Maalesef Oyunu kaybettiniz :( Gizli sayı: " + number);
             System.out.println("Yanlış tahminler:" + Arrays.toString(wrong));
         }
         if (isWin) {
